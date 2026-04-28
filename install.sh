@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # Install ideate-kit globally
 # Usage: curl -fsSL https://raw.githubusercontent.com/jinrudals/ideate-kit/main/install.sh | sh
-set -euo pipefail
+set -eu
 
 REPO="jinrudals/ideate-kit"
 BRANCH="main"
